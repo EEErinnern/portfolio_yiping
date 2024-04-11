@@ -22,6 +22,13 @@ st.set_page_config(page_title='Yiping Chen\'s portfolio' ,layout="wide",page_ico
 st.subheader('About me')
 st.write(info['Brief'])
 
+st.subheader('Career snapshot')
+  
+with st.spinner(text="Building line"):
+    with open('timeline.json', "r") as f:
+        data = f.read()
+        timeline(data, height=500)
+
 st.subheader('Skills & Tools ⚒️')
 def skill_tab():
     rows,cols = len(info['skills'])//skill_col_size,skill_col_size
