@@ -46,8 +46,8 @@ with st.spinner(text="Loading section..."):
     skill_tab()
 
 from constant import career_achievements
+st.subheader('Career Achievements 🥇')
 for position, achievements in career_achievements.items():
-    st.subheader(f'Career Achievements as {position} 🥇')
     achievement_list = ''.join([f'<li>{achievement}</li>' for achievement in achievements])
     st.markdown(f'<ul>{achievement_list}</ul>', unsafe_allow_html=True)
 
