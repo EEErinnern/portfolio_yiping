@@ -6,8 +6,8 @@
         "month": "12"
       },
       "media": {
-        "url": "https://miro.medium.com/max/1000/1*d6tqQqSjxBQ8kvcWjLjm8w.png",
-        "credit": "Tata 1mg"
+        "url": "photos/media_1.jpg",
+        "credit": "Guangdong Radio and Television"
       },
       "text": {
         "headline": "My first professional work",
@@ -16,12 +16,37 @@
     },
     {
       "start_date": {
+        "year": "2019",
+        "month": "2"
+        "day": "5"
+      },
+      "media": {
+        "url": "photos/media_4.jpg",
+        "credit": "Me"
+      },
+      "text": {
+        "headline": "My First Overseas Project Shooting",
+        "text": "<p>The overseas project lasted for a week, I developed my ability of project management greatly from the shooting project.<p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "10"
+      },
+      "text": {
+        "headline": "My First Exposure to Data Analysis",
+        "text": "<p>I was tasked with social media management of the financial program, I led the team to make the follower increase from 0 to 50k.<p>"
+      }
+    },
+    {
+      "start_date": {
         "year": "2021",
         "month": "8"
       },
       "media": {
-        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_9io7Zmn_xunW5wZynIwqHOufi9Rh51pcxQ&usqp=CAU",
-        "credit": "Datacamp"
+        "url": "https://github.com/EEErinnern/portfolio_yiping/blob/b5bfcadda66712388294da2d08f20bcdd58ba490/photos/media_5.jpg",
+        "credit": ""Me
       },
       "text": {
         "headline": "My Back to Economics",
@@ -34,12 +59,27 @@
         "month": "7"
       },
       "media": {
-        "url": "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",
-        "credit": "https://www.agorapulse.com/social-media-lab/science-instagram-algorithm/"
+        "url": "https://github.com/EEErinnern/portfolio_yiping/blob/b5bfcadda66712388294da2d08f20bcdd58ba490/photos/media_3.jpg",
+        "credit": "Me"
       },
       "text": {
-        "headline": "My End of internship and path to data analytics",
-        "text": "I came into limelight within the team when I cracked up prescription digitization devising 2 algorithms namely C-Cube & 3-Step Filtering. I eventually ended up writing a paper as well"
+        "headline": "My introduction to text analysis project",
+        "text": "I was working as research assistant for an academic project regarding the text classification and analysis of Chinese Patent, classifying the patent text into two different categories. "
+      }
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "5"
+        "day": "27"
+      },
+      "media": {
+        "url": "https://github.com/EEErinnern/portfolio_yiping/blob/b5bfcadda66712388294da2d08f20bcdd58ba490/photos/media_2.jpg",
+        "credit": "Me"
+      },
+      "text": {
+        "headline": "My project of social housing system in Vienna",
+        "text": "I joined the one week long workshop with the challenge from Stadt Vienna about providing solution for better, economical and sustainable social housing system in city Vienna. "
       }
     },
     {
@@ -47,13 +87,9 @@
         "year": "2023",
         "month": "5"
       },
-      "media": {
-        "url": "https://image.freepik.com/free-vector/man-working-from-home-cartoon-illustration_365595-53.jpg",
-        "credit": "https://www.freepik.com/premium-vector/man-working-from-home-cartoon-illustration_11973568.htm"
-      },
       "text": {
-        "headline": "My project of social housing system in Vienna",
-        "text": "As I was at the core of prescription digitization solution, I was offered an extended internship (WFH even before Covid). This was the time I managed my 8th semester as well as this intern both from my college"
+        "headline": "My internship as a Data Analyst",
+        "text": "I started my internship at Mercedes-Benz Mobility as a data analyst, working on credit scoring model. "
       }
     }
   ]
