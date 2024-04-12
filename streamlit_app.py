@@ -85,4 +85,4 @@ for i, photo_url in enumerate(photo_urls):
     row_index = i // num_cols
     col_index = i % num_cols
     with grid[col_index]:
-        st.image(photo_url, caption="Photo", width=200)
+        st.image(photo_url,  width=300)
