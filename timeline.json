@@ -2,6 +2,29 @@
   "events": [
     {
       "start_date": {
+        "year": "2013",
+        "month": "9"
+      },
+      "text": {
+        "headline": "My Bachelor Studies",
+        "text": "Having finished the National Entrance Exam, I got admitted into Renmin University of China."
+      }
+    },
+    {
+      "start_date": {
+        "year": "2017",
+        "month": "7"
+      },
+      "media": {
+        "url": "photos/media_1.jpg"
+      },
+      "text": {
+        "headline": "Graduation from Bachelor",
+        "text": "Having successfully graduate from my bachelor study of Economics."
+      }
+    },
+    {
+      "start_date": {
         "year": "2017",
         "month": "12"
       },
@@ -49,7 +72,7 @@
         "credit": "Me"
       },
       "text": {
-        "headline": "My Back to Economics",
+        "headline": "My Back to Master study",
         "text": "<p>This was the time I started to pursue a master degree of Economics in University of Mannheim<p>"
       }
     },
@@ -90,6 +113,15 @@
       "text": {
         "headline": "My internship as a Data Analyst",
         "text": "I started my internship at Mercedes-Benz Mobility as a data analyst, working on credit scoring model. "
+      }
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "9"
+      },
+      "text": {
+        "headline": "My Expected Graduation of Master Study"
       }
     }
   ]
