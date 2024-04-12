@@ -75,6 +75,11 @@ photo_urls = [
 ]
 
 st.subheader('Me as a Photographer📷')  
-image_iterator = paginator("Select a photo page", photo_urls)
-indices_on_page, images_on_page = map(list, zip(*image_iterator))
-st.image(images_on_page, width=100, caption=indices_on_page)
+col_width = 200  # Set the width of each photo column
+num_cols = 3  # Set the number of columns for the photos
+
+photo_width = int(st.columns(num_cols)[0].width / num_cols)
+
+# Display each photo in a row
+for photo_url in photo_urls:
+    st.image(photo_url, caption="Photo", width=photo_width)
