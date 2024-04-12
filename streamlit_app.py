@@ -66,9 +66,15 @@ st.sidebar.download_button('download resume',pdfFileObj,file_name='RESUME_YIPING
 photo_urls = [
     "photos/1.jpg",
     "photos/2.jpg",
-    "photos/3.jpg"
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg",
+    "photos/7.jpg",
+    "photos/8.jpg"  
 ]
 
 st.subheader('Me as a Photographer📷')  
-for photo_url in photo_urls:
-    st.image(photo_url, width=200)
+image_iterator = paginator("Select a photo page", photo_urls)
+indices_on_page, images_on_page = map(list, zip(*image_iterator))
+st.image(images_on_page, width=100, caption=indices_on_page)
