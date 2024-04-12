@@ -75,6 +75,10 @@ photo_urls = [
 ]
 
 st.subheader('Me as a Photographer📷')  
-for photo_url in photo_urls:
-    st.image(photo_url, width=300)
+num_cols = 3
+columns = st.beta_columns(num_cols)
 
+# Display each photo in a column
+for i, photo_url in enumerate(photo_urls):
+    with columns[i % num_cols]:
+        st.image(photo_url, width=200)
