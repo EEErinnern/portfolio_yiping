@@ -8,7 +8,6 @@ info = {
     'Mobile': '+4915251715232',
     'Email': 'chenerin1995@gmail.com',
     'City': 'Mannheim, Germany',
-    'edu': pd.DataFrame(edu, columns=['Qualification', 'Stream', 'Year', 'Institute', 'Score']),
     'skills': ['Data Analysis', 'Python', 'PowerBI', 'Streamlit', 'PySpark', 'Pandas', 'NumPy', 'R', 'Stata', 'Machine Learning']
 }
 
