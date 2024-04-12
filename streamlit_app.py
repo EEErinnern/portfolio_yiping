@@ -82,7 +82,5 @@ grid = st.columns(num_cols)
 
 # Display each photo in the grid
 for i, photo_url in enumerate(photo_urls):
-    row_index = i // num_cols
-    col_index = i % num_cols
-    with grid[col_index]:
-        st.image(photo_url,  width=300)
+    with grid[i % num_cols]:
+        st.image(photo_url, width=300)
