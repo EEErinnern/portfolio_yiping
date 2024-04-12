@@ -52,6 +52,7 @@ st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 linkedin_badge_html = """
 <div class="badge-base LI-profile-badge" data-locale="zh_CN" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yiping-chen-163002225" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/yiping-chen-163002225?trk=profile-badge">Yiping Chen</a></div>
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>"""
+st.components.v1.html(linkedin_badge_html, height=400)
 st.sidebar.markdown(linkedin_badge_html, unsafe_allow_html=True)
 
 st.sidebar.caption('Wish to connect?')
@@ -59,3 +60,14 @@ st.sidebar.write('📧: chenerin1995@gmail.com')
 
 pdfFileObj = open('photos/RESUME_YIPING_CHEN_copy.pdf', 'rb')
 st.sidebar.download_button('download resume',pdfFileObj,file_name='RESUME_YIPING_CHEN_copy.pdf',mime='pdf')
+
+photo_urls = [
+    "photos/photo1.jpg",
+    "photos/photo2.jpg",
+    "photos/photo3.jpg"
+]
+
+# Display photos in the sidebar
+st.sidebar.title("My Photos")
+for photo_url in photo_urls:
+    st.sidebar.image(photo_url, caption="Photo", use_column_width=True)
