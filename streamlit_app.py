@@ -66,12 +66,7 @@ st.sidebar.download_button('download resume',pdfFileObj,file_name='RESUME_YIPING
 photo_urls = [
     "photos/1.jpg",
     "photos/2.jpg",
-    "photos/3.jpg",
-    "photos/4.jpg",
-    "photos/5.jpg",
-    "photos/6.jpg",
-    "photos/7.jpg",
-    "photos/8.jpg"  
+    "photos/3.jpg" 
 ]
 
 st.subheader('Me as a Photographer📷')  
