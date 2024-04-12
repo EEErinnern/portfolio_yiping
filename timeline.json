@@ -17,7 +17,7 @@
     {
       "start_date": {
         "year": "2019",
-        "month": "2"
+        "month": "2",
         "day": "5"
       },
       "media": {
@@ -45,7 +45,7 @@
         "month": "8"
       },
       "media": {
-        "url": "https://github.com/EEErinnern/portfolio_yiping/blob/b5bfcadda66712388294da2d08f20bcdd58ba490/photos/media_5.jpg",
+        "url": "photos/media_5.jpg",
         "credit": ""Me
       },
       "text": {
@@ -70,11 +70,11 @@
     {
       "start_date": {
         "year": "2023",
-        "month": "5"
+        "month": "5",
         "day": "27"
       },
       "media": {
-        "url": "https://github.com/EEErinnern/portfolio_yiping/blob/b5bfcadda66712388294da2d08f20bcdd58ba490/photos/media_2.jpg",
+        "url": "photos/media_2.jpg",
         "credit": "Me"
       },
       "text": {
