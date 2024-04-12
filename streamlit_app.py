@@ -69,6 +69,6 @@ photo_urls = [
     "photos/3.jpg"
 ]
 
-st.subheader('Me as a Photographer📷")  
+st.subheader('Me as a Photographer📷')  
 for photo_url in photo_urls:
     st.sidebar.image(photo_url, caption="Photo", use_column_width=True)
