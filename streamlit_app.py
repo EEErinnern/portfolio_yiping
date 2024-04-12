@@ -76,9 +76,8 @@ photo_urls = [
 
 st.subheader('Me as a Photographer📷')  
 num_cols = 3
-columns = st.beta_columns(num_cols)
+photo_width = int(st.session_state.container.width / num_cols)
 
-# Display each photo in a column
-for i, photo_url in enumerate(photo_urls):
-    with columns[i % num_cols]:
-        st.image(photo_url, width=200)
+# Display each photo in a row
+for photo_url in photo_urls:
+    st.image(photo_url, caption="Photo", width=photo_width)
