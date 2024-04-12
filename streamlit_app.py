@@ -76,8 +76,13 @@ photo_urls = [
 
 st.subheader('Me as a Photographer📷')  
 num_cols = 3
-photo_width = int(st.session_state.container.width / num_cols)
+num_rows = len(photo_urls) // num_cols + (len(photo_urls) % num_cols > 0)
 
-# Display each photo in a row
-for photo_url in photo_urls:
-    st.image(photo_url, caption="Photo", width=photo_width)
+grid = st.columns(num_cols)
+
+# Display each photo in the grid
+for i, photo_url in enumerate(photo_urls):
+    row_index = i // num_cols
+    col_index = i % num_cols
+    with grid[col_index]:
+        st.image(photo_url, caption="Photo", width=200)
