@@ -71,4 +71,4 @@ photo_urls = [
 
 st.subheader('Me as a Photographer📷')  
 for photo_url in photo_urls:
-    st.image(photo_url, caption="Photo", use_column_width=True)
+    st.image(photo_url, caption="Photo", width=int(st.columns(3)[0].width / num_cols))
