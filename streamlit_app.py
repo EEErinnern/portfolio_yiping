@@ -56,7 +56,6 @@ pdfFileObj = open('photos/RESUME_YIPING_CHEN_copy.pdf', 'rb')
 st.sidebar.download_button('download resume',pdfFileObj,file_name='RESUME_YIPING_CHEN_copy.pdf',mime='pdf')
 
 linkedin_badge_html = """
-<!-- <div class="badge-base LI-profile-badge" data-locale="zh_CN" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yiping-chen-163002225" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/yiping-chen-163002225?trk=profile-badge">Yiping Chen</a></div>
-               -->
+<div class="badge-base LI-profile-badge" data-locale="zh_CN" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yiping-chen-163002225" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/yiping-chen-163002225?trk=profile-badge">Yiping Chen</a></div>
 """
 st.components.v1.html(linkedin_badge_html, height=400)
