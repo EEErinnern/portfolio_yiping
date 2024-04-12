@@ -71,4 +71,4 @@ photo_urls = [
 
 st.subheader('Me as a Photographer📷')  
 for photo_url in photo_urls:
-    st.image(photo_url, caption="Photo", width=100)
+    st.image(photo_url, width=200)
