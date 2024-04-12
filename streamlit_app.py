@@ -78,8 +78,9 @@ st.subheader('Me as a Photographer📷')
 col_width = 200  # Set the width of each photo column
 num_cols = 3  # Set the number of columns for the photos
 
-photo_width = int(st.columns(num_cols)[0].width / num_cols)
+container_width = st.columns(num_cols)[0].width
+photo_width = int(container_width / num_cols)
 
-# Display each photo in a row
 for photo_url in photo_urls:
-    st.image(photo_url, caption="Photo", width=photo_width)
+    st.image(photo_url, width=photo_width)
+
