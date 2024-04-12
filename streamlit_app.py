@@ -48,7 +48,7 @@ with st.spinner(text="Loading section..."):
 from constant import career_achievements
 st.subheader('Career Achievements 🥇')
 for position, achievements in career_achievements.items():
-    st.subheader(f'As {position}')
+    st.markdown(f'<h3 style="font-size: 22px;"> As {position} </h3>', unsafe_allow_html=True)
     achievement_list = ''.join([f'<li>{achievement}</li>' for achievement in achievements])
     st.markdown(f'<ul>{achievement_list}</ul>', unsafe_allow_html=True)
 
