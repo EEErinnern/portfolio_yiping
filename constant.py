@@ -12,16 +12,20 @@ info = {
 }
 
 career_achievements = {
-    "Financial Correspondent": [
-        "Awarded Best Financial Correspondent of the Year 2018",
-        "Led a team to cover breaking news stories on the stock market",
-        "Published 50+ articles on financial analysis and market trends"
-    ],
     "Data Analyst Intern": [
-        "Developed predictive models for credit scoring",
+        "Improved predictive models  and generated 30+ reports for credit scoring",
         "Analyzed large datasets using Python and SQL",
-        "Presented findings to senior management and stakeholders"
-    ]
+        "Conducted research on methods within the credit risk domain and presented findings to senior management and stakeholders"
+    ],
+    "Research Assistant": [
+        "Contributed to the development of methodologies for patent and innovation research",
+        "Implemented text classification for over 1 million+ Chinese patents"
+    ],
+    "Financial Correspondent": [
+        "Awarded Best Financial Programs of the Year 2020 in Great Bay Area",
+        "Led a social media team to cover on the stock market with followers over 100K+",
+        "Initiated and conducted 100+ interviews within financial community and produced over 250 episodes"
+    ] 
 }
 
 models = ('Fashion MNIST samples using GAN','Cycle GAN for Image Translation')
