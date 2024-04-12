@@ -45,9 +45,11 @@ def skill_tab():
 with st.spinner(text="Loading section..."):
     skill_tab()
 
-st.subheader('Career Achievements 🥇')
-achievement_list = ''.join(['<li>'+item+'</li>' for item in info['achievements']])
-st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
+from constant import career_achievements
+for position, achievements in career_achievements.items():
+    st.subheader(f'Career Achievements as {position} 🥇')
+    achievement_list = ''.join([f'<li>{achievement}</li>' for achievement in achievements])
+    st.markdown(f'<ul>{achievement_list}</ul>', unsafe_allow_html=True)
 
 linkedin_badge_html = """
 <div class="badge-base LI-profile-badge" data-locale="zh_CN" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yiping-chen-163002225" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/yiping-chen-163002225?trk=profile-badge">Yiping Chen</a></div>
