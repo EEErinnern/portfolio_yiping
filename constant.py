@@ -1,8 +1,6 @@
 import pandas as pd
 import graphviz as graphviz
 
-edu = [['B.Tech','CSE','2020','IIIT Jabalpur','8.1 CGPA'],['12th','Science','2016','Bhavan\'s KDKVM', '94.2%'],['10th','-','2012','Bhavan\'s KDKVM','10 CGPA']]
-
 info = {
     'name': 'Yiping Chen',
     'Brief': "I’m a quantitative-focused Economics Master's student with a strong passion for data analysis and risk management. Experienced in data analysis and model development with credit data and patent research using Python and SQL, with proficiency in reporting and data visualization tools. Skilled financial correspondent and program producer with experience in project management and strong communication ability.",
@@ -11,8 +9,20 @@ info = {
     'Email': 'chenerin1995@gmail.com',
     'City': 'Mannheim, Germany',
     'edu': pd.DataFrame(edu, columns=['Qualification', 'Stream', 'Year', 'Institute', 'Score']),
-    'skills': ['Data Analysis', 'Python', 'PowerBI', 'Streamlit', 'PySpark', 'Pandas', 'NumPy', 'R', 'Stata', 'Machine Learning'],
-    'achievements': ['1', '2', '3', '4']  # Removed the extra comma at the end
+    'skills': ['Data Analysis', 'Python', 'PowerBI', 'Streamlit', 'PySpark', 'Pandas', 'NumPy', 'R', 'Stata', 'Machine Learning']
+}
+
+career_achievements = {
+    "Financial Correspondent": [
+        "Awarded Best Financial Correspondent of the Year 2018",
+        "Led a team to cover breaking news stories on the stock market",
+        "Published 50+ articles on financial analysis and market trends"
+    ],
+    "Data Analyst Intern": [
+        "Developed predictive models for credit scoring",
+        "Analyzed large datasets using Python and SQL",
+        "Presented findings to senior management and stakeholders"
+    ]
 }
 
 models = ('Fashion MNIST samples using GAN','Cycle GAN for Image Translation')
