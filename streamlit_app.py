@@ -22,7 +22,7 @@ st.set_page_config(page_title='Yiping Chen\'s portfolio' ,layout="wide",page_ico
 st.subheader('About me')
 st.write(info['Brief'])
 
-st.subheader('Career snapshot')
+st.subheader('Career Timeline')
   
 with st.spinner(text="Building line"):
     with open('timeline.json', "r") as f:
@@ -45,18 +45,18 @@ def skill_tab():
 with st.spinner(text="Loading section..."):
     skill_tab()
 
-
-st.subheader('Education 📖')
-fig = go.Figure(data=[go.Table(
-    header=dict(values=list(info['edu'].columns),
-                fill_color='paleturquoise',
-                align='left',height=65,font_size=20),
-    cells=dict(values=info['edu'].transpose().values.tolist(),
-               fill_color='lavender',
-               align='left',height=40,font_size=15))])
-
-fig.update_layout(width=750, height=400)
-
-st.subheader('Achievements 🥇')
+st.subheader('Career Achievements 🥇')
 achievement_list = ''.join(['<li>'+item+'</li>' for item in info['achievements']])
 st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
+
+st.sidebar.caption('Wish to connect?')
+st.sidebar.write('📧: chenerin1995@gmail.com')
+
+pdfFileObj = open('photos/RESUME_YIPING_CHEN_copy.pdf', 'rb')
+st.sidebar.download_button('download resume',pdfFileObj,file_name='RESUME_YIPING_CHEN_copy.pdf',mime='pdf')
+
+linkedin_badge_html = """
+<!-- <div class="badge-base LI-profile-badge" data-locale="zh_CN" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yiping-chen-163002225" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/yiping-chen-163002225?trk=profile-badge">Yiping Chen</a></div>
+               -->
+"""
+st.components.v1.html(linkedin_badge_html, height=400)
