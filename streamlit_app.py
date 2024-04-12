@@ -69,7 +69,6 @@ photo_urls = [
     "photos/3.jpg"
 ]
 
-# Display photos in the sidebar
-st.sidebar.title("My Photos")
+st.subheader('Me as a Photographer📷")  
 for photo_url in photo_urls:
     st.sidebar.image(photo_url, caption="Photo", use_column_width=True)
